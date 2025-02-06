@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+    font-family: 'techy';
+    src: url('\Transformers Movie.ttf');
+    }
+    input{
+    
+        color:#1e1e1e;
+        font-family: 'Courier New', Courier, monospace;
+       
+    }
+    body{
+        
+        background: radial-gradient(circle, #13524c 40%, #0a2e2a 80%);
+        
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        color:#00bcd4;
+       
+        
+    }
+    .heading{
+        font-family: techy;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 1px #9f86c0;
+    }
+    select{
+        appearance: none;
+    }
+    .choices{
+       
+        margin-top: 100px;
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+        max-width: 300px ;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px none black;
+        border-radius: 8px;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: #1e1e1e;
+        box-shadow: #13524c;
+        
+
+    }
+    .choices:hover{
+        border: 2px solid #00bcd4;
+    }
+    .input{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+       width: 250px;
+       border-radius: 8px;
+       margin: 10px;
+       padding: 8px;
+       background-image: linear-gradient(to right, rgba(0, 188, 212, 0.5), rgba(255, 204, 0, 0.5)); 
+       box-sizing: border-box;
+       color: #292929;
+       box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2); 
+       
+    }
+   
+    .bt{
+
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 50px;
+        color: #00bcd4;
+        width: 250px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        margin: 10px;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+        background-color: #292929;;
+
+    }
+    .bt:hover{
+        background-color: #007acc; 
+        color: #ffffff
+    }
+</style>
+<body>
+    
+    <div class = "choices">
+        <h1 class = "heading"> OCD login page</h1>
+        <form action="#" method="post">
+            <div>
+            <input type = "text" placeholder="Enter your full name*" class = "input" required>
+            <input type = "email" placeholder="Enter your personal email id*"class = "input" required>
+            <input type ="tel" placeholder = "Enter your phone number*" class = "input"required  maxlength="10" >
+            </div>
+        
+            <label for = "branch-select"></label>
+            <select class = "input" required>
+                <option value= "" disabled selected>   Select your branch* </option>
+                <option value= ""> Mathematics and Computing</option>
+                <option value= ""> CSE</option>
+                <option value= ""> ECE</option>
+                <option value= ""> IT</option>
+                <option value= ""> AIML</option>
+                <option value= ""> Mechanical</option>
+                <option value= ""> Civil</option>
+                <option value= ""> AIDS</option>
+                <option value= ""> SET</option>
+                <option value= ""> Robotics</option>
+                <option value= ""> PI</option>
+                <option value= ""> VLSI</option>
+                <option value= ""> Electrical</option>
+            </select>
+            <label for = "year-select"></label>
+            <select class = "input" required>
+                <option value= ""disabled selected>   Select current year*  </option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+
+            </select>
+            <button type= "submit" class = "bt" onclick="">LOGIN</button>
+        </form>
+    </div>
+
+</body>
+</html>
