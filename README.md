@@ -1,6 +1,7 @@
 # ocd_loginClone
 
 ---
+#To view login page directly, click on this link->https://ocd-login-1rstyearinductions.netlify.app/
 
 ### **🌟 OCD Login Page**  
 A simple and visually appealing **login page** built using **HTML & CSS**. This is my **first significant project** using frontend technologies as part of my **inductions**, and I’m looking forward to improving my skills in web development! 🚀  
